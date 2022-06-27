@@ -70,21 +70,20 @@
     width: var(--slider-width);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
     border-radius: 1rem;
   }
 
   .slider__content .slide-1 {
-    background-image: url('https://raw.githubusercontent.com/burik84/cssMemSlider/gh-pages/cssMemSlider/assets/IMG1.jpg');
+    background-image: url('/img/B373hKQoGstd_yiDrvdtYOHUQ-Yreb2uvwGl54yUihqq_bZuLHoB_A_BgFEDxbWsGaM1V8GqtkGV4tWc7Ps00JXt.jpg');
   }
   .slider__content .slide-2 {
-    background-image: url('https://raw.githubusercontent.com/burik84/cssMemSlider/gh-pages/cssMemSlider/assets/IMG2.jpg');
+    background-image: url('/img/Cesar_bruh.jpg');
   }
   .slider__content .slide-3 {
-    background-image: url('https://raw.githubusercontent.com/burik84/cssMemSlider/gh-pages/cssMemSlider/assets/IMG3.jpg');
+    background-image: url('/img/dGt97KNNZdvZmlo7elSdjvqMbOO0ap8ybcnlHNRIMW7uQZlBSsPSOrCz_y_8Wxc96VUda1Md0yGMtDOCDMxQ0JnK.jpg');
   }
   .slider__content .slide-4 {
-    background-image: url('https://raw.githubusercontent.com/burik84/cssMemSlider/gh-pages/cssMemSlider/assets/IMG4.jpg');
+    background-image: url('/img/qhJvN2bFa20.jpg');
   }
   .slider__wrap-text {
     grid-area: description;
