@@ -74,16 +74,16 @@
   }
 
   .slider__content .slide-1 {
-    background-image: url('/img/B373hKQoGstd_yiDrvdtYOHUQ-Yreb2uvwGl54yUihqq_bZuLHoB_A_BgFEDxbWsGaM1V8GqtkGV4tWc7Ps00JXt.jpg');
+    background-image: url('../img/B373hKQoGstd_yiDrvdtYOHUQ-Yreb2uvwGl54yUihqq_bZuLHoB_A_BgFEDxbWsGaM1V8GqtkGV4tWc7Ps00JXt.jpg');
   }
   .slider__content .slide-2 {
-    background-image: url('/img/Cesar_bruh.jpg');
+    background-image: url('../img/Cesar_bruh.jpg');
   }
   .slider__content .slide-3 {
-    background-image: url('/img/dGt97KNNZdvZmlo7elSdjvqMbOO0ap8ybcnlHNRIMW7uQZlBSsPSOrCz_y_8Wxc96VUda1Md0yGMtDOCDMxQ0JnK.jpg');
+    background-image: url('../img/dGt97KNNZdvZmlo7elSdjvqMbOO0ap8ybcnlHNRIMW7uQZlBSsPSOrCz_y_8Wxc96VUda1Md0yGMtDOCDMxQ0JnK.jpg');
   }
   .slider__content .slide-4 {
-    background-image: url('/img/qhJvN2bFa20.jpg');
+    background-image: url('../img/qhJvN2bFa20.jpg');
   }
   .slider__wrap-text {
     grid-area: description;
