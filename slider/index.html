@@ -8,29 +8,35 @@
     <title>CSS Mem Slider</title>
 </head>
 <body>
-    <div class="slider__wrap">
-        <div class="slider__input">
-            <input type="radio" name="r" id="r1" checked>
-            <input type="radio" name="r" id="r2">
-            <input type="radio" name="r" id="r3">
-            <input type="radio" name="r" id="r4">
-        </div>
-
+    <div class="container">
+      <div class="slider__wrap" role="slider">
+        <input type="radio" id="r1" name="slider__control" checked="checked" />
+        <input type="radio" id="r2" name="slider__control" />
+        <input type="radio" id="r3" name="slider__control" />
+        <input type="radio" id="r4" name="slider__control" />
         <div class="slider__wrap-content">
-            <div class="slider__content">
-                <div class="slide s1"><img src="img/Cesar_bruh.jpg" alt=""></div>
-                <div class="slide"><img src="img/B373hKQoGstd_yiDrvdtYOHUQ-Yreb2uvwGl54yUihqq_bZuLHoB_A_BgFEDxbWsGaM1V8GqtkGV4tWc7Ps00JXt.jpg" alt=""></div>
-                <div class="slide"><img src="img/dGt97KNNZdvZmlo7elSdjvqMbOO0ap8ybcnlHNRIMW7uQZlBSsPSOrCz_y_8Wxc96VUda1Md0yGMtDOCDMxQ0JnK.jpg" alt=""></div>
-                <div class="slide"><img src="img/qhJvN2bFa20.jpg" alt=""></div>
-            </div>
+          <div class="slider__content">
+            <div class="slide slide-1"></div>
+            <div class="slide slide-2"></div>
+            <div class="slide slide-3"></div>
+            <div class="slide slide-4"></div>
+          </div>
         </div>
-
+        <div class="slider__wrap-text">
+          <div class="slider__description">
+            <p class="slide slide-1">Не теряй веру в себя</p>
+            <p class="slide slide-2">Помни, почему ты начал</p>
+            <p class="slide slide-3">Просто делай и у тебя все получится</p>
+            <p class="slide slide-4">Рискуй и никогда ни о чём не жалей</p>
+          </div>
+        </div>
         <div class="slider__control">
-            <label for="r1" class="bar"></label>
-            <label for="r2" class="bar"></label>
-            <label for="r3" class="bar"></label>
-            <label for="r4" class="bar"></label>
+          <label class="slider__control-1" for="r1"></label>
+          <label class="slider__control-2" for="r2"></label>
+          <label class="slider__control-3" for="r3"></label>
+          <label class="slider__control-4" for="r4"></label>
         </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
